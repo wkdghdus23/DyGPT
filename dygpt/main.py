@@ -6,7 +6,7 @@ from torch.utils.data import random_split
 from transformers import BertTokenizer, GPT2Tokenizer
 from dygpt import GPTForCausalLM, GPTForDownstream 
 from dygpt import train
-from dygpt import set_seed
+from dygpt.utils import set_seed
 from dygpt.tokenizer import initial_tokenizer_with_vocabulary
 
 # Set the random seed for reproducibility
